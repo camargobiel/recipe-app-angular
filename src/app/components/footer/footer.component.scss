@@ -1,0 +1,23 @@
+:host(app-footer) {
+  .footer-container {
+    position: absolute !important;
+    width: 100vw;
+    height: 130px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    box-shadow: #b1b1b1 0px 3px 10px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+    a {
+      background: none;
+
+      &:nth-child(3) {
+        background-color: #E23E3E;
+        align-self: center;
+      }
+    }
+  }
+}

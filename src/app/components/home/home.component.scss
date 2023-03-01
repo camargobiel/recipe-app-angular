@@ -1,0 +1,22 @@
+:host(app-home) {
+  .content {
+    &__title {
+      margin-bottom: 24px;
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    &__input-container {
+      display: flex;
+      justify-content: center;
+    }
+
+    &__popular-container {
+      &__title {
+        margin-top: 24px;
+        font-size: 24px;
+        font-weight: 500;
+      }
+    }
+  }
+}
